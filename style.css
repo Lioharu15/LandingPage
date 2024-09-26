@@ -1,0 +1,70 @@
+html {
+    font-size: 20px;
+  }
+body {
+    /* margin: 0; */
+    background-image: url(Ethan_Background.png);
+    background-size: cover;
+    /* font-family: 'Source Sans 3', sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+width: 80ch;
+max-width: 100%;
+    margin: auto;
+    line-height: 1.6;
+  }
+  main {
+    padding: 1rem 3rem;
+    max-width: 600px;
+    background-color: rgba(54, 20, 145, .85);
+    margin: auto;
+    border-radius: 50px;
+    
+  }
+  h1 {
+    margin-top: 0;
+    margin-bottom: 2px;
+    color: #eef9fe;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  p {
+    color: #ebeffc;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  form input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+    border: 0;
+    margin-bottom: 15px;
+  }
+  form input:focus {
+      outline: none;
+  }
+  form input[type="text"] {
+    border-radius: 10px 0 0 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  form input[type="button"] {
+    border-radius: 0 10px 10px 0;
+    background-color: #3b60e4;
+    color: #ebe8f5;
+    font-style: italic;
+    font-weight: bold;
+   
+
+    
+  }
+  form input[type="button"]:active {
+    background-color: #4B2E39;
+  }
+  form input[type="button"]:hover{
+    background-color: #7c94ed;
+  }
+  .brand {
+    display: flex;
+  }
